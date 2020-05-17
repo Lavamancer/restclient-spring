@@ -33,6 +33,11 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'mysql:mysql-connector-java'
 
+	// RETROFIT
+	implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+	implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+	implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+
 	// TEST
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

@@ -1,4 +1,4 @@
-package com.lavamancer.workshop;
+package com.lavamancer.workshop.tool;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

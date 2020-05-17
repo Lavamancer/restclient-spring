@@ -1,4 +1,4 @@
-package com.lavamancer.workshop;
+package com.lavamancer.workshop.model;
 
 import lombok.Data;
 
